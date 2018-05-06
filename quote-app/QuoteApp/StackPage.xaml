@@ -1,20 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ContentPage 
     Padding="0, 20, 0, 0"
+    BackgroundColor="#127ac7"
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="QuoteApp.StackPage">
-   <StackLayout Orientation="Horizontal"
-                Padding="40"
-                Spacing="20"
-                VerticalOptions="Center"
-                HorizontalOptions="Center"
-                >
-        <StackLayout>
-            <Image Source="http://placehold.it/100x100" />
-            <Label Text="Label 1" />
-        </StackLayout>
-        <Label Text="label 2" />
-        <Label Text="2018" />
+   <StackLayout VerticalOptions="Center" Spacing="20">
+        <Label Text="Welcome to Xamarin" TextColor="White" FontSize="30" FontAttributes="Bold" HorizontalOptions="Center" />
+        <Label Text="Cross Platform apps made easy" TextColor="White" FontSize="15" HorizontalOptions="Center" />
+
+        <Button Text="Login" 
+                BackgroundColor="#1dabf0"
+                TextColor="White"
+                FontAttributes="Bold"></Button>
+
+        <Button Text="Register" 
+                TextColor="White"
+                BackgroundColor="#1dabf0" 
+                FontAttributes="Bold"></Button> 
     </StackLayout>
 </ContentPage>
