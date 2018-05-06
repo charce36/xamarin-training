@@ -7,6 +7,17 @@
     <Grid BackgroundColor="Yellow" 
           RowSpacing="40"
           ColumnSpacing="40">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100" />
+            <RowDefinition Height="100" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+
         <Label Grid.Row="0" Grid.Column="0" Text="Label 1" BackgroundColor="Silver" />
         <Label Grid.Row="0" Grid.Column="1" Text="Label 2" BackgroundColor="Silver" />
         <Label Grid.Row="1" Grid.Column="0" Text="Label 3" BackgroundColor="Silver" />

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage
+    BackgroundColor="#354242"
+    Padding="20, 50, 20, 10"
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    x:Class="QuoteApp.GridPhoneEx">
+    <StackLayout>
+        <Label x:Name="lblResult" Text=" " TextColor="White"
+               FontSize="50" HorizontalOptions="Center" />
+        <Grid HeightRequest="300" Padding="40" RowSpacing="10" ColumnSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+      
+        <Button Clicked="Handle_Clicked" Grid.Row="0" Grid.Column="0"
+               Text="1" FontSize="30" TextColor="#28282c"
+               BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="0" Grid.Column="1"
+           Text="2" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="0" Grid.Column="2"
+           Text="3" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="1" Grid.Column="0"
+           Text="4" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="1" Grid.Column="1"
+           Text="5" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="1" Grid.Column="2"
+           Text="6" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="2" Grid.Column="0"
+           Text="7" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="2" Grid.Column="1"
+           Text="8" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Button Clicked="Handle_Clicked" Grid.Row="2" Grid.Column="2"
+           Text="9" FontSize="30" TextColor="#28282c"
+           BackgroundColor="#FFF" />
+        <Label Grid.Row="3" Grid.Column="0" />
+        <Button Clicked="Handle_Clicked" Grid.Row="3" Grid.Column="1"
+               Text="0" FontSize="30" TextColor="#28282c"
+               BackgroundColor="#FFF" />
+        
+    </Grid>
+         <Button TextColor="Black"
+               Text="Llamar" FontSize="30" 
+               BackgroundColor="#96ca2d" />
+    </StackLayout>
+
+</ContentPage>
