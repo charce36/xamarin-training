@@ -8,7 +8,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new Relative2();
+			MainPage = new Images();
         }
 
         protected override void OnStart()

@@ -66,6 +66,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Images.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -101,6 +105,9 @@
     </Compile>
     <Compile Include="Relative2.xaml.cs">
       <DependentUpon>Relative2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Images.xaml.cs">
+      <DependentUpon>Images.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
