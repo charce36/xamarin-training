@@ -54,6 +54,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Absolute2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -80,6 +84,9 @@
     </Compile>
     <Compile Include="AbsoluteLayoutExcersice.xaml.cs">
       <DependentUpon>AbsoluteLayoutExcersice.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Absolute2.xaml.cs">
+      <DependentUpon>Absolute2.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

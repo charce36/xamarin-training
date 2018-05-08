@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="QuoteApp.Absolute2">
+    <AbsoluteLayout Padding="0">
+        <Image Source="https://picsum.photos/1920/1080" 
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+               Aspect="AspectFill" 
+               AbsoluteLayout.LayoutFlags="All" />
+        <Label HorizontalOptions="Center" 
+               AbsoluteLayout.LayoutBounds="0, 0, 1, 1" 
+               AbsoluteLayout.LayoutFlags="All"
+               TextColor="White"
+               FontSize="30" 
+               Text="Relax" 
+               Margin="0, 30"/>
+        <BoxView BackgroundColor="Black" 
+                 AbsoluteLayout.LayoutBounds="0, 1, 500, 100" 
+                 AbsoluteLayout.LayoutFlags="PositionProportional" 
+                 Opacity="0.5" 
+                 VerticalOptions="Start" 
+                 HeightRequest="100">
+        </BoxView>
+        <StackLayout Padding="30" Orientation="Horizontal" 
+                     HeightRequest="100" AbsoluteLayout.LayoutBounds="0, 1, 1, 100" 
+                     AbsoluteLayout.LayoutFlags="PositionProportional, WidthProportional">
+            <Label Text="Profile" TextColor="White" FontSize="15" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Meditate" TextColor="White" FontSize="15" HorizontalOptions="CenterAndExpand" />
+            <Label Text="Themes" TextColor="White" FontSize="15" HorizontalOptions="CenterAndExpand" />
+        </StackLayout>
+    </AbsoluteLayout>
+</ContentPage>
