@@ -1,4 +1,5 @@
-﻿using Xamarin.Forms;
+﻿using QuoteApp.Images;
+using Xamarin.Forms;
 
 namespace QuoteApp
 {
@@ -8,7 +9,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new Images();
+			MainPage = new EmbebedImage();
         }
 
         protected override void OnStart()

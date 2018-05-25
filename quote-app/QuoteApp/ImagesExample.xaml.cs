@@ -5,9 +5,9 @@ using Xamarin.Forms;
 
 namespace QuoteApp
 {
-	public partial class Images : ContentPage
+	public partial class ImagesExample : ContentPage
 	{
-		public Images()
+		public ImagesExample()
 		{
 			InitializeComponent();
 
