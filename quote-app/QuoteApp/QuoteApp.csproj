@@ -75,6 +75,10 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="Resources\background.jpg" />
+    <EmbeddedResource Include="CarruselExample.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -116,6 +120,9 @@
     </Compile>
     <Compile Include="Images\EmbebedImage.xaml.cs">
       <DependentUpon>EmbebedImage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CarruselExample.xaml.cs">
+      <DependentUpon>CarruselExample.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="QuoteApp.CarruselExample"
+             BackgroundColor="Black"
+             >
+    <AbsoluteLayout>
+        <Grid RowSpacing="10"
+              ColumnSpacing="40" 
+              AbsoluteLayout.LayoutBounds="0, 0, 1, 0.3"
+              AbsoluteLayout.LayoutFlags="All">
+        
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="100" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="100" />
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="btnPrev"
+                    Image="left.png" 
+                    Grid.Row="0" Grid.Column="0" />
+        
+            <ActivityIndicator IsRunning="{Binding Source={x:Reference imgCarrusel}, Path=IsLoading }"
+                               Color="White"
+                               Grid.Row="0" Grid.Column="1" />
+            <Button x:Name="btnNext"
+                    Image="right.png" Grid.Row="0" Grid.Column="2"
+                    />
+           </Grid>
+            <Image x:Name="imgCarrusel" 
+                   AbsoluteLayout.LayoutBounds="0, 0.4, 1, 0.6"
+                   AbsoluteLayout.LayoutFlags="All" 
+                   Aspect="AspectFit"/>
+        </AbsoluteLayout>
+</ContentPage>

@@ -9,7 +9,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new EmbebedImage();
+			MainPage = new CarruselExample();
         }
 
         protected override void OnStart()
