@@ -1,4 +1,5 @@
 ﻿using QuoteApp.Images;
+using QuoteApp.Lists;
 using Xamarin.Forms;
 
 namespace QuoteApp
