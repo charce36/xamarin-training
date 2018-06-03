@@ -10,7 +10,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new CarruselExample();
+			MainPage = new ListCustomCell();
         }
 
         protected override void OnStart()
