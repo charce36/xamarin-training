@@ -10,7 +10,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new ListCustomCell();
+			MainPage = new ListViewGrouped();
         }
 
         protected override void OnStart()
