@@ -91,6 +91,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="Lists\ListsHandlingSections.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lists\ListsContextActions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lists\ListsPullToRefresh.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -147,6 +159,15 @@
       <DependentUpon>ListViewGrouped.xaml</DependentUpon>
     </Compile>
     <Compile Include="Model\ContactGroup.cs" />
+    <Compile Include="Lists\ListsHandlingSections.xaml.cs">
+      <DependentUpon>ListsHandlingSections.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lists\ListsContextActions.xaml.cs">
+      <DependentUpon>ListsContextActions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Lists\ListsPullToRefresh.xaml.cs">
+      <DependentUpon>ListsPullToRefresh.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

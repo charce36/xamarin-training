@@ -10,7 +10,7 @@ namespace QuoteApp
         {
             InitializeComponent();
 
-			MainPage = new ListViewGrouped();
+			MainPage = new ListsPullToRefresh();
         }
 
         protected override void OnStart()
